@@ -1,9 +1,72 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "cursos": [
+    {
+      "id": "9203092138",
+      "nome": "Android"
+    },
+    {
+      "id": "9203092156",
+      "nome": "Web"
+    },
+    {
+      "id": "9203092189",
+      "nome": "Backend"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "departamento": [
+    {
+      "id": "9203092138",
+      "nome": "Eng. de Software"
+    }
   ],
-  "profile": { "name": "typicode" }
+  "professor": [
+    {
+      "id": "9203092138",
+      "nome": "Mirella Lins",
+      "cursos": [
+        {
+          "id": "9203092138",
+          "nome": "Android"
+        }
+      ],
+      "departamento": [
+        {
+          "id": "9203092138",
+          "nome": "Eng. de Software"
+        }
+      ]
+    }
+  ],
+  "alocacao": {
+    "cursos": [
+      {
+        "id": "9203092138",
+        "nome": "Android"
+      }
+    ],
+    "departamento": [
+      {
+        "id": "9203092138",
+        "nome": "Eng. de Software"
+      }
+    ],
+    "professor": [
+      {
+        "id": "9203092138",
+        "nome": "Mirella Lins",
+        "cursos": [
+          {
+            "id": "9203092138",
+            "nome": "Android"
+          }
+        ],
+        "departamento": [
+          {
+            "id": "9203092138",
+            "nome": "Eng. de Software"
+          }
+        ]
+      }
+    ]
+  }
 }
